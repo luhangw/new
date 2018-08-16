@@ -43,6 +43,11 @@ hr {border-width: medium medium 1px; border-style: none none solid; border-color
 .banner-box .next:hover {  background-color: rgba(0, 0, 0, 0.6);  }
 .banner-box .prev {  left: 0;  }
 .banner-box .next {  right: 0;  }
-.banner-box .banner-pages {  position: absolute;  bottom: 20px;  height: 20px;  width: 100%;  text-align: center;  font-size: 0;  }
+.banner-box .banner-pages {  position: absolute;  bottom: 20px;  height: 20px;  width: 100%;font-size: 0;left: 530px;top: 450px;  }
 .banner-box .banner-pages span {  width: 10px;  height: 10px;  background-color: #cccccc;  display: inline-block;  border-radius: 50%;  -moz-border-radius: 50%;  -webkit-border-radius: 50%;  position: relative;  cursor: pointer;  margin: 0 6px;  line-height: 30px;  text-align: center;  z-index: 1;  font-size: 0px;  }
 .banner-box .banner-pages span.on {  background-color: #f99c38;  color: #ffffff;  }
+.hbTag{width:300px; height:300px; position:absolute; left:430px; top:120px; background:rgba(255,255,255,0.5)!important; filter:Alpha(opacity=50); background:#fff; font-family:"microsoft yahei","微软雅黑";}
+.hbTagLine{position:relative; width:286px; height:286px; border:#fff solid 1px; margin:6px;}
+.hbTgaLine h1{position: relative;font-size: 47px;left: 20px;color: white;top: 35px;}
+.hbTagLine .p{position: relative;font-size: 18px;}
+
