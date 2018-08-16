@@ -32,3 +32,17 @@ hr {border-width: medium medium 1px; border-style: none none solid; border-color
 .menu ul li { }
 .menu li a {background: rgb(255, 255, 255, 0.8);width: 142px;height: 46px;text-align: center;color: rgb(34, 34, 34);line-height: 46px;font-size: 1.4em;font-weight: blod;display: block;}
 .menu li a:hover{background: rgb(198, 198, 198);}
+.banner-box {  width: 100%;  margin: 0px auto;  overflow: hidden;  position: relative;  }
+.banner-box .list {  width: 1000%;  overflow: hidden;  position: relative;  left: 0;  top: 0;  }
+.banner-box .list li {  width: 10%;  float: left;  overflow: hidden;  }
+.banner-box .list li:first-child {  display: block;  }
+.banner-box .list li a img {  width: 100%;  display: block;height: 100%;  }
+.banner-box .prev,
+.banner-box .next {  position: absolute;  width: 100px;  height: 100px;  font-size: 50px;  line-height: 100px;  background-color: rgba(0, 0, 0, 0.4);  top: 50%;  margin-top: -50px;  color: #ffffff;  text-align: center;  cursor: pointer;  }
+.banner-box .prev:hover,
+.banner-box .next:hover {  background-color: rgba(0, 0, 0, 0.6);  }
+.banner-box .prev {  left: 0;  }
+.banner-box .next {  right: 0;  }
+.banner-box .banner-pages {  position: absolute;  bottom: 20px;  height: 20px;  width: 100%;  text-align: center;  font-size: 0;  }
+.banner-box .banner-pages span {  width: 10px;  height: 10px;  background-color: #cccccc;  display: inline-block;  border-radius: 50%;  -moz-border-radius: 50%;  -webkit-border-radius: 50%;  position: relative;  cursor: pointer;  margin: 0 6px;  line-height: 30px;  text-align: center;  z-index: 1;  font-size: 0px;  }
+.banner-box .banner-pages span.on {  background-color: #f99c38;  color: #ffffff;  }
